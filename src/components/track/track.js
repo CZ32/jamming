@@ -1,15 +1,15 @@
 import React from 'react';
 import './track.css';
 
-export class Track extends React.Component {
- constructor(props) {
-  super(props);
- }
 
- renderAction(isRemoval) {
-    return isRemoval === true ? '-': '+';
- }
- 
+class Track extends React.Component {
+   renderAction(){
+      if(this.props.isRemoval){
+         return <button className="Track-action">-</button>
+      }else{
+         return <button className="Track-action">+</button>
+      }
+   } 
  render() {
   return (
    <div className="Track">
@@ -18,9 +18,11 @@ export class Track extends React.Component {
      <p>
       {this.props.track.artist} | {this.props.track.album}
      </p>
-     <button className="Track-action">{this.renderAction}</button>
     </div>
+    {this.renderAction()}
    </div>
   );
  }
 }
+
+export default Track;

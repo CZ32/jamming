@@ -1,8 +1,10 @@
 import React from 'react';
-import TrackList from '../track-list/trackList';
 import './searchResults.css';
 
-export class SearchResults extends React.Component {
+import TrackList from '../track-list/trackList';
+
+
+class SearchResults extends React.Component {
  render() {
   return (
    <div>
@@ -12,3 +14,5 @@ export class SearchResults extends React.Component {
   );
  }
 }
+
+export default SearchResults;
