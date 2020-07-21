@@ -11,10 +11,10 @@ class App extends React.Component {
   this.state = {
    searchResults: [
     {
-     name: '',
-     artist: '',
-     album: '',
-     id: '',
+     name: 'Everybody is a Star',
+     artist: 'Sly & The Family Stone',
+     album: 'Stone-Greatest Hits',
+     id: '9034850',
     },
    ],
   };
