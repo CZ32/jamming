@@ -9,7 +9,6 @@ constructor(props){
 }
 search(){
     this.props.onSearch(this.state.searchTerm)
-
 }
 
 handleTermChange(e){
@@ -20,7 +19,7 @@ handleTermChange(e){
   return (
    <div className="SearchBar">
     <input placeholder="Enter a song, album, or artist" onChange={(e) => this.handleTermChange(e)} />
-    <button className="SearchButton">SEARCH</button>
+    <button className="SearchButton" onClick={this.search}>SEARCH</button>
    </div>
   );
  }
