@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Jammming 
 
-## Available Scripts
+## A react app where you can link your Spotify account, create new playlists, search for songs, and add/remove them from your playlist. 
 
-In the project directory, you can run:
+[LIVE VERSION up and running. Please visit here](https://cengiz-jammming.surge.sh)
 
-### `npm start`
+### Tech-stack
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+React, Spotify, API, Surge
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Learning objectives
 
-### `npm test`
+* Learn how to pass props to child components.  
+* Utilizes handlers to change the state of components. 
+* Learn how to call 3rd party APIs and handle their responses.
+* Creating and using API Keys and storing as environment variables. 
+* Implicit Grant Flow for Client Authentication. 
+* Obtain song uris and saving them to parent state. 
+* Deploying front-end application using Surge.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Key features 
 
-### `npm run build`
+* Search for song by artist or song name using the Spotify API. 
+* Create and save new Spotify playlist. 
+* Add or remove songs from Spotify playlist (using song uri).
+* View saved playlist and songs on [Spotify profile](https://open.spotify.com/user/4f1gscmhwi86f3ul4vq9tryyy)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Known Bugs
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* User has to search for a song twice before the API begins to work. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### How to use the live version. 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Dependencies 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Spotify Account.
+* Spotify API. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### How to install and run locally. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The name and elevator pitch of your project
+A link to the live version of your deployed app
+Some nice screenshots of the app in action
+The project’s key features
+The tech stack for your application
+Instructions in case someone would like to run your project locally
+Any particularly interesting technical details about your project
+Ideally, licensing information for you project. If unsure, I’d recommend picking the
