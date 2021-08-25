@@ -4,6 +4,8 @@
 
 [LIVE VERSION up and running. Please visit here](https://cengiz-jammming.surge.sh)
 
+![Gif showing the Jamming application](https://github.com/CZ32/jamming/blob/readme/public/jammming_final.gif)
+
 ### Tech-stack
 
 React, Spotify, API, Surge
