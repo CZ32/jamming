@@ -1,6 +1,6 @@
 # Jammming 
 
-## A react app where you can link your Spotify account, create new playlists, search for songs, and add/remove them from your playlist. 
+### A react app where you can link your Spotify account, create new playlists, search for songs, and add/remove them from your playlist. 
 
 [LIVE VERSION up and running. Please visit here](https://cengiz-jammming.surge.sh)
 
@@ -15,7 +15,9 @@ React, Spotify API, Surge
 * Learn how to call 3rd party APIs and handle their responses.
 * Creating and using API Keys and storing as environment variables. 
 * Implicit Grant Flow for Client Authentication. 
-* Obtain song uris and saving them to parent state. 
+* Comparing, matching, updating client tokens from url params.
+* Async fetch requests using promises. 
+* Obtain Song URIs from the Spotify API response and saving them to component state. 
 * Deploying front-end application using Surge.
 
 ### Key features 
@@ -58,9 +60,23 @@ React, Spotify API, Surge
 8. Save the client id within the .env.development.local file. Giving it the variable name 'REACT_APP_SPOTIFY_API_KEY'
 
 **Note**
+
 Format of environment variables should be named accordingly
  
-REACT_APP_VARIABLE_NAME="[sting]"
+REACT_APP_VARIABLE_NAME="[string]"
 
 9. Run 'npm install' in the command line of the route directory to install dependencies.  
 10. Run 'npm start' to run Jammming application locally. 
+
+### Challenges 
+
+* Getting used to chaining promises using the fetch/then syntax.
+* Understanding how new tokens are matched and compared in Implicit Grant Flow. 
+
+### Future Developments
+
+1. Create user profiles.
+2. Enable the ability to view playlists saved to account within Jammming. 
+3. Delete playlists from within Jammming.
+
+
