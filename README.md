@@ -4,11 +4,9 @@
 
 [LIVE VERSION up and running. Please visit here](https://cengiz-jammming.surge.sh)
 
-![Gif showing the Jamming application](https://github.com/CZ32/jamming/blob/readme/public/jammming_final.gif)
-
 ### Tech-stack
 
-React, Spotify, API, Surge
+React, Spotify API, Surge
 
 ### Learning objectives
 
@@ -33,6 +31,15 @@ React, Spotify, API, Surge
 
 ### How to use the live version. 
 
+![Gif showing the Jamming application](https://github.com/CZ32/jamming/blob/readme/public/jammming_final.gif)
+
+1. Open live site at [https://cengiz-jammming.surge.sh](https://cengiz-jammming.surge.sh)
+2. Rename playlist by clicking on the 'New Playlist' text field and editing. 
+3. In the search bar, type your favourite artist or song (Search twice due to bug).
+4. Add your favourite songs to the play list.
+5. (Optional) remove songs from the playlist if they are unwanted. 
+6. Save newly created playlists by clicking the 'Save to Spotify' button. 
+7. [Visit the cengiz-jammming Spotify account](https://open.spotify.com/user/4f1gscmhwi86f3ul4vq9tryyy) and see the playlist saved to the profile.
 
 ### Dependencies 
 
@@ -41,11 +48,19 @@ React, Spotify, API, Surge
 
 ### How to install and run locally. 
 
-The name and elevator pitch of your project
-A link to the live version of your deployed app
-Some nice screenshots of the app in action
-The project’s key features
-The tech stack for your application
-Instructions in case someone would like to run your project locally
-Any particularly interesting technical details about your project
-Ideally, licensing information for you project. If unsure, I’d recommend picking the
+1. Clone this repositiory to your local machine.
+2. Create a .env.development.local file in the route of the directory. 
+3. Create a [Spotify developer account](https://developer.spotify.com/dashboard/).
+4. From within the developer dashboard, create an app by give it a name, description and agreeing to Spotify's terms of service. 
+5. From the app dashboard in Spotify, select 'Edit Settings'
+6. Under the option 'Redirect URIs'; add 'http://localhost:3000/'
+7. Save the redirect URI (http://localhost:3000/) to a variable named 'REACT_APP_REDIRECT_URI' in the .env.development.local f
+8. Save the client id within the .env.development.local file. Giving it the variable name 'REACT_APP_SPOTIFY_API_KEY'
+
+**Note**
+Format of environment variables should be named accordingly
+ 
+REACT_APP_VARIABLE_NAME="[sting]"
+
+9. Run 'npm install' in the command line of the route directory to install dependencies.  
+10. Run 'npm start' to run Jammming application locally. 
